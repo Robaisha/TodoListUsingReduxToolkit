@@ -1,12 +1,13 @@
-import './App.css'
-import TodoList from './Pages/TodoList/TodoList'
+import "./App.css";
 
-function App() {
+import TodoList from "./Pages/TodoList/TodoList";
+
+const App: React.FC = () => {
   return (
-      <div>
-        <TodoList/>
-      </div>
-  )
-}
+    <div>
+      <TodoList />
+    </div>
+  );
+};
 
-export default App
+export default App;

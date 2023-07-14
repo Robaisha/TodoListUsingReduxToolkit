@@ -1,4 +1,5 @@
 import { TodoItemType } from "../api/modal/todoItemType";
+
 let TodoListArray: Array<TodoItemType> = [
   { id: 1, title: "Javascript" },
   { id: 2, title: "React" },
