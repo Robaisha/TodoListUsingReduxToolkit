@@ -1,6 +1,6 @@
 import "./App.css";
 
-import TodoList from "./Pages/TodoList/TodoList";
+import { TodoList } from "./pages/TodoList";
 
 const App: React.FC = () => {
   return (

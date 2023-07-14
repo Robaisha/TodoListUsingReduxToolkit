@@ -9,7 +9,7 @@ import {
 } from "../../store/reducer/TodoItemSlice";
 import { RootState } from "../../store/store";
 
-const TodoList = () => {
+const TodoList: React.FC = () => {
   const dispatch = useDispatch();
   const TodoListArray = useSelector(
     (state: RootState) => state.TodoItem.TodoListArray
